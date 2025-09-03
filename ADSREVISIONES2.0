@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADS Revisión Técnica de Viviendas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .planes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .plan {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .plan:hover {
+      transform: translateY(-8px);
+    }
+    .plan h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .precio {
+      font-size: 1.5rem;
+      color: #27ae60;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    ul {
+      text-align: left;
+      padding-left: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #27ae60;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      margin-top: 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #219150;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ADS Revisión Técnica de Viviendas</h1>
+    <p>Profesionales con más de 5 años de experiencia en calidad, postventa y entrega de viviendas</p>
+  </header>
+
+  <section>
+    <h2>Nuestros Planes de Revisión</h2>
+    <div class="planes">
+      <!-- Plan Básico -->
+      <div class="plan">
+        <h3>Plan Básico</h3>
+        <p class="precio">$1.800 / m²</p>
+        <ul>
+          <li>Revisión de elementos no estructurales</li>
+          <li>Pisos y muros</li>
+          <li>Puertas y ventanas</li>
+        </ul>
+        <a href="#contacto" class="btn">Reservar</a>
+      </div>
+
+      <!-- Plan Completo -->
+      <div class="plan">
+        <h3>Plan Completo</h3>
+        <p class="precio">$2.200 / m²</p>
+        <ul>
+          <li>Incluye todo el plan básico</li>
+          <li>Revisión de cocinas y baños</li>
+          <li>Detección de filtraciones y humedad</li>
+          <li>Informe técnico detallado</li>
+        </ul>
+        <a href="#contacto" class="btn">Reservar</a>
+      </div>
+
+      <!-- Plan Premium -->
+      <div class="plan">
+        <h3>Plan Premium</h3>
+        <p class="precio">$2.800 / m²</p>
+        <ul>
+          <li>Incluye todo el plan completo</li>
+          <li>Revisión de instalaciones eléctricas visibles</li>
+          <li>Chequeo de gasfitería básica</li>
+          <li>Asesoría personalizada post-informe</li>
+        </ul>
+        <a href="#contacto" class="btn">Reservar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Teléfonos: +569 32794974 | +569 46193840 | +569 73890743</p>
+    <p>Email: contacto@adsrevision.cl</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ADS Revisión Técnica de Viviendas - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
